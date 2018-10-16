@@ -19,7 +19,7 @@ In order to get this plugin to work it is required to follow the following steps
 
 * Modify your article/image template and add the following
 ```xml
-<field name="deskExport" input-template="deskExport" label=""/>
+<field name="deskExport" input-template="com.atex.plugins.deskexport.ExportButton" label=""/>
 ```
 The button Export to Desk should now be a part of the template.
 
